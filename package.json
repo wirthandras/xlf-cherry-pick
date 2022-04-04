@@ -1,0 +1,31 @@
+{
+    "name": "xlf-cherry-pick",
+    "version": "0.0.1",
+    "description": "Command-line tool for cherry-pick missing XLF translations units",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "xlf-cherry-pick": "./index.js"
+    },
+    "author": "Andras Wirth",
+    "license": "MIT",
+    "keywords": [
+        "XLIFF",
+        "XLF",
+        "Tool"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wirthandras/xlf-cherry-pick.git"
+    },
+    "bugs": {
+        "url": "https://github.com/wirthandras/xlf-cherry-pick/issues"
+    },
+    "homepage": "https://github.com/wirthandras/xlf-cherry-pick#readme",
+    "dependencies": {
+        "commander": "^7.2.0",
+        "xlf-merge": "^2.0.1"
+    }
+}
